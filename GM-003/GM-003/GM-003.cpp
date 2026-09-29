@@ -31,7 +31,6 @@ void RhombusStar() {
 	for (int i = 0; i < 9; i++) {
 		int n = (i % ((9 / 2) + 1)) + (i / ((9 / 2) + 1) * (3 - 2 * (i % ((9 / 2) + 1))));
 		cout << string(4 - n, ' ') << string(2 * n + 1, '*') << endl;
-
 	}
 }
 
