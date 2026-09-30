@@ -98,7 +98,13 @@ namespace GM_007
             switch(pattern)
             {
                 case 0:
+                    int critical = rand.Next(0, 2);
                     int dmg = (int)(monCharge ? 10 * 1.5 : 10);
+                    if(critical > 0)
+                    {
+                        dmg = dmg * 2;
+                        Console.Write("크리티컬!");
+                    }
                     if (!eternal)
                     {
                         playerHp = playerHp - dmg > 0 ? playerHp - dmg : 0;
