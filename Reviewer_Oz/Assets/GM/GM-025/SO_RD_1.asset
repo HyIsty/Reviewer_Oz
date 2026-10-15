@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfce3dcb32c50254882666bdb2da5433, type: 3}
+  m_Name: SO_RD_1
+  m_EditorClassIdentifier: Assembly-CSharp::GM_025.RoomData
+  enemyPrefab: {fileID: 7478361607113636481, guid: 94e859cf1264cbe4baac78afb9b583ff, type: 3}
+  spawnCount: 1
+  maxHP: 30
+  attackDamage: 5
+  moveSpeed: 2
+  attackInterval: 2
+  enemyScale: 1
+  detectionRange: 8
+  attackRange: 2
+  agentRadius: 0.5
+  agentHeight: 2
+  agentBaseOffset: 0.5
