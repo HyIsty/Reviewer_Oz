@@ -61,8 +61,11 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.9f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\GM\GM-026\Scripts\Constants.cs" />
+    <Compile Include="Assets\GM\GM-026\Scripts\WorldItem.cs" />
     <Compile Include="Assets\GM\GM-024\H2\CubeSelect.cs" />
     <Compile Include="Assets\GM\GM-023\PatternManager.cs" />
+    <Compile Include="Assets\GM\GM-026\Scripts\AltarInteract.cs" />
     <Compile Include="Assets\GM\GM-024\H1\EnemyAI.cs" />
     <Compile Include="Assets\GM\GM-025\Scripts\RoomData.cs" />
     <Compile Include="Assets\GM\GM-022\HeatCooling.cs" />
@@ -74,7 +77,9 @@
     <Compile Include="Assets\GM\GM-025\Scripts\RoomController.cs" />
     <Compile Include="Assets\GM\GM-016\DeckManager.cs" />
     <Compile Include="Assets\GM\GM-015\MonsterCardDeckManager.cs" />
+    <Compile Include="Assets\GM\GM-026\Scripts\PlayerInteraction.cs" />
     <Compile Include="Assets\GM\GM-025\Scripts\EnemyAI.cs" />
+    <Compile Include="Assets\GM\GM-026\Scripts\PlayerInventory.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
