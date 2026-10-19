@@ -78,6 +78,7 @@
     <Compile Include="Assets\GM\GM-025\Scripts\PlayerController.cs" />
     <Compile Include="Assets\GM\GM-018\WeaponSmith.cs" />
     <Compile Include="Assets\GM\GM-017\DungeonExplorer.cs" />
+    <Compile Include="Assets\GM\GM-029\BulletLogic.cs" />
     <Compile Include="Assets\GM\GM-025\Scripts\RoomController.cs" />
     <Compile Include="Assets\GM\GM-016\DeckManager.cs" />
     <Compile Include="Assets\GM\GM-027\Scripts\CoilGenerator.cs" />
