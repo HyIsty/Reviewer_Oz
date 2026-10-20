@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\GM\GM-027\Scripts\CoilPlayerInteraction.cs" />
+    <Compile Include="Assets\GM\GM-030\ShopNpcDictionary.cs" />
     <Compile Include="Assets\GM\GM-026\Scripts\Constants.cs" />
     <Compile Include="Assets\GM\GM-028\Bullet.cs" />
     <Compile Include="Assets\GM\GM-027\Scripts\Interface.cs" />
@@ -74,6 +75,7 @@
     <Compile Include="Assets\GM\GM-028\PlayerShoot.cs" />
     <Compile Include="Assets\GM\GM-022\HeatCooling.cs" />
     <Compile Include="Assets\GM\GM-021\Switch.cs" />
+    <Compile Include="Assets\GM\GM-030\WorldItem.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\GM\GM-025\Scripts\PlayerController.cs" />
     <Compile Include="Assets\GM\GM-018\WeaponSmith.cs" />
@@ -85,6 +87,7 @@
     <Compile Include="Assets\GM\GM-015\MonsterCardDeckManager.cs" />
     <Compile Include="Assets\GM\GM-027\Scripts\CoilPlayer.cs" />
     <Compile Include="Assets\GM\GM-027\Scripts\EnergyCoil.cs" />
+    <Compile Include="Assets\GM\GM-030\PlayerInventoryDictionary.cs" />
     <Compile Include="Assets\GM\GM-027\Scripts\MainGenerator.cs" />
     <Compile Include="Assets\GM\GM-026\Scripts\PlayerInteraction.cs" />
     <Compile Include="Assets\GM\GM-025\Scripts\EnemyAI.cs" />

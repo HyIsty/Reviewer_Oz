@@ -1,0 +1,115 @@
+{
+    "version": 1,
+    "name": "GM_030",
+    "maps": [
+        {
+            "name": "GM_030",
+            "id": "922d2845-1b0c-409d-aa86-68626ef5805c",
+            "actions": [
+                {
+                    "name": "InventoryCheck",
+                    "type": "Button",
+                    "id": "d9de885b-4310-41c3-b81c-fb94293bb0d9",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "CheckShop",
+                    "type": "Button",
+                    "id": "7005c70a-3785-43f5-82ab-8103d1a0fb56",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "CheckShopItem1",
+                    "type": "Button",
+                    "id": "1f2fb507-94dd-4fd3-b0ea-84955696f449",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "CheckShopItem2",
+                    "type": "Button",
+                    "id": "33ad996a-f219-42a1-91a5-cad931ad5b8f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "CraftItem",
+                    "type": "Button",
+                    "id": "ad9ba739-bcb6-490c-a152-f405711b31bf",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4409aa57-cb87-4592-aa95-5111fb7adabc",
+                    "path": "<Keyboard>/i",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "InventoryCheck",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "47107e9f-64af-4789-88bc-2575a0eec822",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CheckShop",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "15a2193a-d5d0-4ed2-a121-3b0f215f463f",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CheckShopItem1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "65938931-4078-4d0f-bcde-6a89c18d581c",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CheckShopItem2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7b89cc74-e806-4590-8f0d-a119ccef8617",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CraftItem",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
