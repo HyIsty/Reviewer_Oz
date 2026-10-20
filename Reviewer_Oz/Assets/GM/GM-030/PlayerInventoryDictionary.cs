@@ -22,6 +22,9 @@ namespace GM_030
             laevateinnCrafter.Add("tree_of_life", 1);
 
             AddItem("sword", 2);
+            AddItem("potion", 1);
+            AddItem("gold", 100);
+            AddItem("key_red", 3);
             AddItem("tree_of_life", 2);
         }
 
