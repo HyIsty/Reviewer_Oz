@@ -70,9 +70,12 @@
     <Compile Include="Assets\GM\GM-024\H2\CubeSelect.cs" />
     <Compile Include="Assets\GM\GM-023\PatternManager.cs" />
     <Compile Include="Assets\GM\GM-031\InventoryHUD.cs" />
+    <Compile Include="Assets\GM\GM-033\MonsterDropTable.cs" />
     <Compile Include="Assets\GM\GM-026\Scripts\AltarInteract.cs" />
     <Compile Include="Assets\GM\GM-024\H1\EnemyAI.cs" />
+    <Compile Include="Assets\GM\GM-033\ItemPickupCollector.cs" />
     <Compile Include="Assets\GM\GM-025\Scripts\RoomData.cs" />
+    <Compile Include="Assets\GM\GM-033\ItemCatalogManager.cs" />
     <Compile Include="Assets\GM\GM-028\PlayerShoot.cs" />
     <Compile Include="Assets\GM\GM-022\HeatCooling.cs" />
     <Compile Include="Assets\GM\GM-021\Switch.cs" />
@@ -84,6 +87,7 @@
     <Compile Include="Assets\GM\GM-029\BulletLogic.cs" />
     <Compile Include="Assets\GM\GM-025\Scripts\RoomController.cs" />
     <Compile Include="Assets\GM\GM-016\DeckManager.cs" />
+    <Compile Include="Assets\GM\GM-033\LootManager.cs" />
     <Compile Include="Assets\GM\GM-027\Scripts\CoilGenerator.cs" />
     <Compile Include="Assets\GM\GM-015\MonsterCardDeckManager.cs" />
     <Compile Include="Assets\GM\GM-027\Scripts\CoilPlayer.cs" />
