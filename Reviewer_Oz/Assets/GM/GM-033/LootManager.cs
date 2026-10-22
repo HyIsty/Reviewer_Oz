@@ -150,7 +150,6 @@ namespace GM_033
                 float radius = spawnRadius + ringIndex * radiusStep;
 
                 Vector3 spawnPosition = centerPosition + baseDirections[directionIndex] * radius;
-
                 if (Physics.CheckSphere(spawnPosition, itemCheckRadius, obstacleLayer, QueryTriggerInteraction.Collide))
                 {
                     continue;

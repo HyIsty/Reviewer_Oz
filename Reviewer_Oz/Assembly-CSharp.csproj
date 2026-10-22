@@ -78,6 +78,7 @@
     <Compile Include="Assets\GM\GM-033\ItemCatalogManager.cs" />
     <Compile Include="Assets\GM\GM-028\PlayerShoot.cs" />
     <Compile Include="Assets\GM\GM-022\HeatCooling.cs" />
+    <Compile Include="Assets\GM\GM-034\EnemyAI.cs" />
     <Compile Include="Assets\GM\GM-021\Switch.cs" />
     <Compile Include="Assets\GM\GM-030\WorldItem.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
