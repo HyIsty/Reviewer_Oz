@@ -95,6 +95,7 @@
     <Compile Include="Assets\GM\GM-035\StageStartPopup.cs" />
     <Compile Include="Assets\GM\GM-027\Scripts\CoilPlayer.cs" />
     <Compile Include="Assets\GM\GM-027\Scripts\EnergyCoil.cs" />
+    <Compile Include="Assets\GM\GM-036\StageUIController.cs" />
     <Compile Include="Assets\GM\GM-030\PlayerInventoryDictionary.cs" />
     <Compile Include="Assets\GM\GM-027\Scripts\MainGenerator.cs" />
     <Compile Include="Assets\GM\GM-026\Scripts\PlayerInteraction.cs" />
