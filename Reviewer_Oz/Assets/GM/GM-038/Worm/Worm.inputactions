@@ -1,0 +1,57 @@
+{
+    "version": 1,
+    "name": "Worm",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "65105921-6f4b-4a2c-973c-aebd6dd2c886",
+            "actions": [
+                {
+                    "name": "Turn",
+                    "type": "Value",
+                    "id": "81685d56-f3ea-4314-974b-662494512e62",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "1D Axis",
+                    "id": "77a23892-1fbb-4d08-bdab-c42bab51bac7",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Turn",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "e60ac121-4a51-4937-9b0a-faadb4dbda5d",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Turn",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "d74f7d6f-f332-42bb-b91e-d89d29da30eb",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Turn",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
